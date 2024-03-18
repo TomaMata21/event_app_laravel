@@ -13,12 +13,8 @@
     <link rel="dns-prefetch" href="//fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
 
-    <!-- Style -->
-    @vite(['resources/css/home.css', 'resources/js/app.js'])
-
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
-    @vite(['resources/js/app.js'])
 </head>
 <body>
     <div id="app">
